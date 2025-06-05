@@ -50,3 +50,4 @@ export const Carousel = ({ products }: Props) => {
     </Card>
   );
 };
+//3900
