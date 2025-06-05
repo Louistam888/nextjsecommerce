@@ -15,8 +15,10 @@ export default async function Home() {
     <div>
       <section className="rounded bg-neutral-100 py-8 sm:py-12">
         <div className="mx-auto grid grid-cols-1 items-center justify-items-center gap-8 px-8 sm:px-16 md:grid-cols-2">
-          <div className="max-w-md spa
-          CLEARce-y-4">
+          <div
+            className="max-w-md spa
+          CLEARce-y-4"
+          >
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
               Welcome to Murica
             </h2>
@@ -43,6 +45,9 @@ export default async function Home() {
             src={products.data[0].images[0]}
           />
         </div>
+      </section>
+      <section>
+        <Carousel products={products.data} />
       </section>
     </div>
   );
