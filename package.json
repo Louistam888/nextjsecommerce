@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/postcss": "^4.1.8",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -17,8 +18,10 @@
     "postcss": "^8.5.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "stripe": "^18.2.1",
     "tailwind-merge": "^3.3.0",
-    "tailwindcss": "^4.1.8"
+    "tailwindcss": "^4.1.8",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

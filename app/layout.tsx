@@ -34,5 +34,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-//12:00
