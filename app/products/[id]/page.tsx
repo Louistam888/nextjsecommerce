@@ -18,4 +18,3 @@ export default async function ProductPage({
   return <ProductDetail product={plainProduct} />;
 }
 
-//123 time
