@@ -6,7 +6,9 @@ export default async function ProductPage({
 }: {
   params: { id: string };
 }) {
-  const product = await stripe.products.retrieve(params.id, {
+  const { id } = await params; 
+
+  const product = await stripe.products.retrieve(id, {
     expand: ["default_price"],
   });
 
@@ -16,4 +18,3 @@ export default async function ProductPage({
   return <ProductDetail product={plainProduct} />;
 }
 
-//123
